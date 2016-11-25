@@ -12,8 +12,8 @@ Live demo: [erictherobot.github.io/react-web-midi](http://erictherobot.github.io
 To build the examples locally, run:
 
 ```
-npm install
-npm start
+yarn
+yarn start
 ```
 
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
@@ -26,7 +26,7 @@ The easiest way to use react-web-midi is to install it from NPM and include it i
 You can also use the standalone build by including `dist/react-web-midi.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-npm install react-web-midi --save
+yarn add react-web-midi
 ```
 
 
