@@ -1,7 +1,7 @@
 {
   "name": "react-web-midi",
-  "version": "1.0.7",
-  "description": "A simple React MIDI component that interacts with MIDI controllers, keyboard, mouse.",
+  "version": "1.0.8",
+  "description": "React Web Midi",
   "main": "lib/ReactWebMidi.js",
   "author": "Eric David Smith",
   "homepage": "https://github.com/erictherobot/react-web-midi",
