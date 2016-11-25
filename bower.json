@@ -1,0 +1,30 @@
+{
+  "name": "react-web-midi",
+  "version": "1.0.7",
+  "description": "A simple React MIDI component that interacts with MIDI controllers, keyboard, mouse.",
+  "main": "dist/react-web-midi.min.js",
+  "homepage": "https://github.com/erictherobot/react-web-midi",
+  "authors": [
+    "Eric David Smith"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

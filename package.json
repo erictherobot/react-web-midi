@@ -1,0 +1,45 @@
+{
+  "name": "react-web-midi",
+  "version": "1.0.7",
+  "description": "A simple React MIDI component that interacts with MIDI controllers, keyboard, mouse.",
+  "main": "lib/ReactWebMidi.js",
+  "author": "Eric David Smith",
+  "homepage": "https://github.com/erictherobot/react-web-midi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erictherobot/react-web-midi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erictherobot/react-web-midi/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "react": "^0.14.0",
+    "react-component-gulp-tasks": "^0.7.6",
+    "react-dom": "^0.14.0",
+    "standard": "*"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "build": "gulp clean && NODE_ENV=production gulp build",
+    "examples": "gulp dev:server",
+    "lint": "eslint ./; true",
+    "publish:site": "NODE_ENV=production gulp publish:examples",
+    "release": "NODE_ENV=production gulp release",
+    "start": "gulp dev",
+    "test": "echo \"no tests yet\" && exit 0",
+    "watch": "gulp watch:lib"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
