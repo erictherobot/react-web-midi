@@ -1,6 +1,6 @@
 {
   "name": "react-web-midi",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React Web Midi",
   "main": "dist/react-web-midi.min.js",
   "homepage": "https://github.com/erictherobot/react-web-midi",
