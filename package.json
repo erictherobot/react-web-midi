@@ -17,13 +17,13 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "react": "^0.14.0",
+    "react": "^15.4.2",
     "react-component-gulp-tasks": "^0.7.6",
-    "react-dom": "^0.14.0",
+    "react-dom": "^15.4.2",
     "standard": "*"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^15.4.2"
   },
   "browserify-shim": {
     "react": "global:React"
