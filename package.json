@@ -1,6 +1,6 @@
 {
   "name": "react-web-midi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React Web Midi",
   "main": "lib/ReactWebMidi.js",
   "author": "Eric David Smith",
